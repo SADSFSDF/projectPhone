@@ -8,7 +8,7 @@ src: url('../font/SourceHanSansSC-Regular.otf')
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:Microsoft YaHei
+    font-family:sans-serif!important
 
 }
 image{
