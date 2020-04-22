@@ -152,16 +152,17 @@ text-align: left;
 }
 .phoneDetailCon{
 	position: absolute;
-	bottom: 0;
+	bottom: 3px;
 
 }
 .phoneDetailCon div:nth-of-type(1){
 	color: #fff;
-	font-size: 14px;
-	margin-bottom: 0px;
+	margin-bottom: 2px;
 	padding-left: 15px;
 	z-index: 999;
 	position: relative;
+	    font-size: 16px;
+    font-weight: bold;
 }
 .phoneDetailCon div:nth-of-type(2){
 	color: #fff;
@@ -198,6 +199,8 @@ text-align: left;
 	line-height: 22px;
 	margin-bottom: 10px;
 	color:rgba(100,100,100,1);
+	padding-left: 8px;
+	padding-right: 8px;
 }
 .phoneDetailMst .imgs{
 	display: block;

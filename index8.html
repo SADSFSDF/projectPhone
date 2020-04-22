@@ -11,7 +11,9 @@
 <body>
 <div class="phoneContent" id="phoneContentId" style="overflow: hidden;">
 	<div class="navContent">
-		<img src="images/gb@2x.png" class="pclose">
+		<div class="pclose">
+			<img src="images/gb@2x.png">
+		</div>
 		<div class="navList" href="index.html"><span>首页</span><img src="images/icon@2x.png"></div>
 		<div class="navList" href="index4.html"><span>巴特罗空间</span><img src="images/icon@2x.png"></div>
 		<div class="navList" href="index6.html"><span>巴特罗攻略</span><img src="images/icon@2x.png"></div>
@@ -96,7 +98,27 @@
 				<div class="wr5">50%折扣</div>
 				<div class="wr6"><span></span><span>出示媒体卡</span></div>   
 			</div>
-			<div class="l1"></div>
+
+			<div class="m3 hideContainer">
+				<div class="wr5">3欧元的折扣</div>
+				<div class="wr6"><span></span><span>出示媒体卡</span></div>
+				<div class="wr6"><span></span><span>出示青年卡。</span></div>
+				<div class="wr6"><span></span><span>出示鉴定残疾程度的卡。</span></div>
+				<div class="wr6"><span></span><span>观光巴士、巴塞罗那城市旅游、巴塞罗 那卡、巴塞罗那通行证、迷你卡、现代主义之路和巴塞罗那徒步旅行的用户。</span></div>
+
+			</div>
+
+			<div class="m3 hideContainer">
+				<div class="wr5">50%临时促销</div>
+				<div class="wr6"><span></span><span>在特定期间， 巴特罗之家 时常与各种媒体合作进行宣传或广告活动。这些出版物中所出现的折扣是可使用的。必须在有效期限内使用并且出示促销文件。</span></div>
+			</div>
+
+			<div class="m3 hideContainer">
+				<div class="wr5">注: </div>
+				<div class="wr6"><span></span><span>所有折扣皆以一般在线销售价格为基础：24,50 €。</span></div>
+				<div class="wr6"><span></span><span>不可累计和2018年有效之折扣仅能在售票处购买。</span></div>
+			</div>
+			<div class="l1" style="margin-top: 10px;"></div>
 			<div class="mo1">查看更多↓</div>
 		</div>
 		<div class="img5">
@@ -125,10 +147,11 @@
 	</div>
 
 	<div class="vedioDiv">
+		<img src="images/yddsp@2x.png">
 		<video  src="https://vdse.bdstatic.com//819942305f8f0dd4c9660c85a5e4548a?authorization=bce-auth-v1%2F40f207e648424f47b2e3dfbb1014b1a5%2F2017-05-11T09%3A02%3A31Z%2F-1%2F%2F4813956e173990f32a3cf0b4b30a6962809e2e6dd67064e4c6744384a16cf8b4" controls="controls">
 					</video>
-	</div>
-                                
+         
+    </div>                            
 	<div class="msgWrap">
 		<div class="wr1">服务</div>
 		<div class="wr2">巴特罗公寓提供以下参观配套服务</div>
@@ -335,5 +358,10 @@
         prevEl: '.swiper-button-prev',
       }
     });
+
+
+    $(".mo1").on("click",function(){
+    	$(".hideContainer").show();
+    })
 </script>
 </html>

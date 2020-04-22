@@ -409,7 +409,7 @@ padding-left: 4px;
 	padding-left: 15px;
 	padding-right: 12px;
 	overflow: hidden;
-	box-shadow:0px 1px 2px 1px rgba(0, 0, 0, 0.14);
+	box-shadow:0px 1px 1px 1px rgba(0, 0, 0, 0.14);
 }
 .m1 img{
 	width: 40px;
@@ -469,7 +469,7 @@ padding-left: 4px;
 	border-radius:5px;
 }
 .wr3{
-	font-size:18px;
+	font-size:16px;
 	font-family:Microsoft YaHei;
 	font-weight:bold;
 	color:rgba(150,150,150,1);
@@ -477,7 +477,7 @@ padding-left: 4px;
 	text-align: center;
 }
 .wr4{
-	font-size:14px;
+	font-size:12px;
 	font-family:Microsoft YaHei;
 	font-weight:400;
 	color:rgba(150,150,150,1);
@@ -490,16 +490,17 @@ padding-left: 4px;
 }
 .m3{
 	padding:12px;
+	padding-bottom: 0;
 }
 .wr5{
 	color: #969696;
 	font-weight: bold;
-	font-size: 18px;
+	font-size: 16px;
 	margin-bottom: 6px;
 }
 .wr6{
 	color: #969696;
-	font-size: 14px;
+	font-size: 12px;
 	margin-bottom: 4px;
 }
 .wr6 span:nth-of-type(1){
@@ -514,7 +515,7 @@ margin-right: 5px;
 	text-align: center;
 	padding-top: 15px;
 	padding-bottom: 15px;
-	font-size: 16px;
+	font-size: 14px;
 	color: #288DFF
 }
 .h10{
@@ -560,14 +561,19 @@ margin-bottom: 8px;
 }
 .vedioDiv{
 	position: relative;
-	margin-left: 12px;
-	margin-right: 12px;
 	margin-top: 12px;
 }
-.vedioDiv video{
-	height: 200px;
+.vedioDiv img{
+	width: 100%;
 }
-
+.vedioDiv video{
+	width: 89%;
+    margin: 0 auto;
+    height: 55%;
+    position: absolute;
+    top: 12.1%;
+    left: 5.5%;
+}
 
 .c1{
 	background:#FFEEE6;
@@ -645,4 +651,10 @@ margin-bottom: 8px;
 	background:#FFF6DE;
 	border-radius:5px;
 	padding: 12px;
+}
+.hideContainer{
+	display: none;
+}
+.bannerMsg{
+	position: relative;
 }
